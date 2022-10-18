@@ -6,7 +6,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[N];
 
 FillArrayRandomNumbers(numbers);
-Console.WriteLine("Вот наш массив: ");
+Console.WriteLine("Исходный массив: ");
 string inputString = string.Join(",",numbers);
 PrintArray(numbers);
 
